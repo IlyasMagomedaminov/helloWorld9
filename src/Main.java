@@ -12,19 +12,19 @@ public class Main {
         String lastName = "Ivanov";
         String fullName = lastName + " " + firstName + " " + middleName;
 
-        System.out.println("ФИО сотрудника — " + fullName + "\n");
+        System.out.println("ФИО сотрудника — " + fullName + ".\n");
     }
     public static void task2(){
         System.out.println("Задача 2");
 
-        String fullName = "Ivanov Ivan Ivanovich";
+        String fullName = "Ivanov Ivan Ivanovich.";
 
         System.out.println("Данные ФИО сотрудника для заполнения отчета — " + fullName.toUpperCase()+ "\n");
     }
     public static void task3(){
         System.out.println("Задача 3");
 
-        String fullName = "Иванов Семён Семёнович";
+        String fullName = "Иванов Семён Семёнович.";
         fullName = fullName.replace("ё","e");
 
         System.out.println("Данные ФИО сотрудника — " + fullName);
